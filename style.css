@@ -1,0 +1,90 @@
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+    background-color: #82d3f6; 
+}
+
+#dark-mode-div {
+    position: absolute;
+    right: 5px;
+    top: 30px;
+    font-size: 20px;
+}
+
+#to-do-list-section {
+    text-align: center;
+    width: 25%;
+    float: left;
+    border-right: 1px solid black;
+    margin-right: 50px;
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
+
+#to-do-description-section {
+    width: 75%;
+    padding-top: 50px;
+}
+
+#to-do-input {
+    width: 75%;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+li {
+    background-color: #03cea4;
+    margin:50px 50px 0 50px;
+    border-radius: 30px;
+    color: white;
+    list-style-type: none;
+    font-size: 20px;
+    list-style-position: inside;
+}
+
+
+#last-task {
+    border: none;
+    
+}
+ul {
+    padding: 10px 0 10px 0;
+    text-align: left;
+
+}
+.to-do-task {
+    border-bottom:cornsilk solid 1px;
+    margin: 0;
+}
+#add-to-do-btn {
+    margin-top: 10px;
+    background-color: #dfb541;
+    color: white;
+    font-size: 15px;
+    border: 0px;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+footer {
+    position: static;
+    bottom: 0;
+    height: 100px;
+}
+p {
+  color :#949494;
+}
+
+img {
+  width: 300px;
+}
